@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Yolo Prediction</title>
+    <link rel="stylesheet" type="text/css" href="../static/css/yolo_prediction.css">
+</head>
+<body>
+
+    <h1> Yolo Prediction </h1>
+    <form action="/yolo_model" method="post">
+        <img src="{{ image_path }}" width="360" alt="prediction">
+    </form>
+    <br>
+    <form method="get" action="/">
+        <button onclick="window.location.href = 'homepage.html';">Home</button>
+    </form>
+</body>
+</html>
