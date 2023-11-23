@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Choose a Model for Image Prediction</title>
+    <link rel="stylesheet" type="text/css" href="../static/css/homepage.css">
+</head>
+<body>
+    <h1>Choose a Model for Image Prediction</h1>
+    <form method="get" action="/VIT_model">
+        <p> The Vision Transformer Model analyzes the image and returns a text of what the image contains </p>
+        <br>
+        <button onclick="window.location.href = 'VIT_model.html';">VIT</button>
+        <br>
+    </form>
+    <br>
+    <form method="get" action="/yolo_model">
+        <p> Yolo returns the image with borders around the various objects inside the image labeled with the predictions </p>
+        <br>
+        <button onclick="window.location.href = 'yolo_model.html';">Yolo</button>
+        <br>
+    </form>
+</body>
+</html>
